@@ -1,0 +1,6 @@
+numpy
+pillow
+playwright
+python-telegram-bot
+requests
+pyyaml

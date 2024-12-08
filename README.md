@@ -6,9 +6,7 @@ A basic bot that:
 3. Takes a screenshot each time and compares them for any changes
 4. Sends a telegram alert whenever a change is found.
 
-Use it for
-1. Tracking changes on booking websites
-2. 
+Use it for a simple alert system to detect when a change happens on a website.
 
 Tested on Raspiberry Pi running Raspberry Pi OS.
 

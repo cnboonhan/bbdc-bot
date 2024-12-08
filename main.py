@@ -80,7 +80,7 @@ with sync_playwright() as p:
             update_screenshots(page)
 
             if detect_change() > 0:
-                send_telegram_message(f"Page Changed. {config["FIRST_LOGIN_PAGE"]}")
+                send_telegram_message(f"Page Changed. {config['FIRST_LOGIN_PAGE']}")
                 input("Pausing reload, press enter to continue")
                 clear_screenshots()
 

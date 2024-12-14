@@ -84,8 +84,8 @@ with sync_playwright() as p:
                 input("Pausing reload, press enter to continue")
                 clear_screenshots()
 
-        print("Switching to ALT_LOGIN_PAGE..")
-        page.goto(config["ALT_LOGIN_PAGE"])
-        pause_random(10, 15)
-        sleep(random.randint(10, 15))
+        # print("Switching to ALT_LOGIN_PAGE..")
+        # page.goto(config["ALT_LOGIN_PAGE"])
+        # pause_random(10, 15)
+        # sleep(random.randint(10, 15))
         pause_random(3, 5)
